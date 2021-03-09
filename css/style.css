@@ -20,12 +20,115 @@
   font-size: 14px;
 }
 
+.add-items{
+  font-size: 14px;
+}
+
 .fs-12 {
   font-size: 12px;
 }
 
 .a-color{
   color: black;
+}
+
+.page-product {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.catelink{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.item-info{
+  background-color: white;
+  padding-top: 16px;
+}
+
+.quantity-text{
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.imgreview{
+  padding-right: 10px;
+  border-right: 1px solid rgba(0,0,0,.14);
+  display: flex;
+  align-items: center;
+}
+
+.review{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0,0,0,.14);
+  display: flex;
+  align-items: center;
+}
+
+.sold{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.row2{
+  margin-top: 16px;
+}
+
+.row3{
+  margin-top: 16px;
+  color: red;
+}
+
+.row4{
+  margin-top: 16px;
+}
+
+.row5{
+  margin-top: 16px;
+}
+
+.row6{
+  margin-top: 30px;
+  padding: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-desc{
+  margin-top: 16px;
+}
+
+.input-item{
+  height: 32px;
+  width: 35px;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.09);
+}
+
+.quantity{
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.item-desc-left{
+  padding-top: 16px;
+  border-right: 1px solid rgba(0,0,0,.14);
+  background-color: white;
+}
+
+.item-desc-right{
+  padding-top: 16px;
+  background-color: white;
 }
 
 @media screen and (max-width: 800px) {
@@ -48,6 +151,9 @@
   .seedetail{
     font-size: 10px;
   }
+  .add-items{
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -55,6 +161,9 @@
     font-size: 9px;
   }
   .seedetail{
+    font-size: 9px;
+  }
+  .add-items{
     font-size: 9px;
   }
 }
@@ -67,6 +176,9 @@
   .seedetail{
     font-size: 12px;
   }
+  .add-items{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -76,6 +188,9 @@
   .seedetail{
     font-size: 11px;
   }
+  .add-items{
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -83,6 +198,9 @@
     font-size: 12px;
   }
   .seedetail{
+    font-size: 12px;
+  }
+  .add-items{
     font-size: 12px;
   }
 }
