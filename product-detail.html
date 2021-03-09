@@ -11,6 +11,8 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rateit.css">
     <title>Trang chủ</title>
@@ -55,6 +57,28 @@
     <!--Product-->
     <div class="page-product">
         <div class="container product-detail">
+            <div class="slider-for">
+                <div class="item">
+                    <img src="http://www.planwallpaper.com/static/images/kartandtinki1_photo-wallpapers_02.jpg" alt="image"  draggable="false"/>
+                </div>
+                <div class="item">
+                    <img src="http://www.intrawallpaper.com/static/images/awesome-rain-wallpaper_0_PB7IVa9.jpg" alt="image" draggable="false"/>
+                </div>
+                <div class="item">
+                    <img src="http://stylonica.com/wp-content/uploads/2014/02/Cute-Wallpaper-HD-Background.jpg" alt="image" draggable="false"/>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="item">
+                    <img src="http://www.planwallpaper.com/static/images/kartandtinki1_photo-wallpapers_02.jpg" alt="image"  draggable="false"/>
+                </div>
+                <div class="item">
+                    <img src="http://www.intrawallpaper.com/static/images/awesome-rain-wallpaper_0_PB7IVa9.jpg" alt="image" draggable="false"/>
+                </div>
+                <div class="item">
+                    <img src="http://stylonica.com/wp-content/uploads/2014/02/Cute-Wallpaper-HD-Background.jpg" alt="image" draggable="false"/>
+                </div>
+            </div>
             <!--Category link-->
             <div class="catelink">
                 <div><a href="" class="a-color">Nobsilver</a></div>
@@ -69,7 +93,7 @@
                     <path fill-rule="evenodd"
                         d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                 </svg>
-                <div>Dây chuyền Tinie Heart</div>
+                <div class="" >Dây chuyền Tinie Heart</div>
             </div>
             <!--Item info-->
             <div class="row item-info">
@@ -91,10 +115,11 @@
                 <div class="col-8">
                     <div class="d-flex flex-column">
                         <div class="bd-highlight row1">
-                            <h3>Dây chuyền Tinie Heart</h3>
+                            <h3 id="title-test">Dây chuyền Tinie Heart</h3>
                         </div>
                         <div class="d-flex flex-row row2">
                             <div class="imgreview">
+                                <input type="text" value="" id="id-test">
                                 <div style="font-size: 20px;" id="rateit" class="rateit" data-rateit-mode="font" data-rateit-resetable="false"  style="font-size:50px">
                                 </div>
                             </div>
@@ -113,16 +138,16 @@
                                 Số lượng
                             </div>
                             <div>
-                                <button class="input-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                <button class="input-item" id="reduce-product"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
                                         <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
                                     </svg></button>
                             </div>
                             <div>
-                                <input class="input-item quantity" type="text" value="1">
+                                <input class="input-item quantity" name="qty-product" id="qty-product" type="text" value="1">
                             </div>
                             <div>
-                                <button class="input-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                <button class="input-item" id="increase-product"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
                                         <path
                                             d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
@@ -141,20 +166,9 @@
                                     <path
                                         d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
                                 </svg>&nbsp; 7 ngày miễn phí trả hàng</div>
-                            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-                                    <path
-                                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-                                </svg>&nbsp;Cam kết bạc 925</div>
-                            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-                                    <path
-                                        d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-                                </svg>&nbsp;Miễn phí vận chuyển</div>
+                            <div><i class="fa fa-car"></i>&nbsp;Cam kết bạc 925</div>
+                            <div class="transfer"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                &nbsp;<span class="text">Miễn phí vận chuyển</span></div>
                         </div>
                     </div>
                 </div>
@@ -198,7 +212,9 @@
                 </div>
             </div>
         </div>
+
     </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -210,6 +226,7 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <script src="./js/jquery.rateit.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
     <script src="./js/index.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

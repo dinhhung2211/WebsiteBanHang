@@ -131,6 +131,63 @@
   background-color: white;
 }
 
+.transfer i {
+  color: red;
+}
+
+.transfer span.text {
+  color:blue;
+}
+
+/* css for slick */
+
+.slider-for{
+	width: 850px;
+	height: 284px;
+	margin: 30px auto 1px;
+	overflow: hidden;
+	border: solid #f8f8f8;
+	border-width: 15px;
+	border-radius: 10px;
+	box-shadow: 0 5px 3px rgba(3,3,3,.16);
+	opacity: .7;
+	-moz-box-shadow: 0 5px 3px rgba(3,3,3,.16);
+	-webkit-box-shadow: 0 5px 3px rgba(3,3,3,.16);
+}
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+	width: 423px;
+	margin: auto;
+	padding: 15px 0px 0px 0px;
+	display: block;
+}
+.slider-nav .item {
+	margin: auto 17px;
+	border: solid #cbcbcb;
+	border-width: 10px;
+	border-radius: 7px;
+}
+.slider-nav .slick-track{
+	height: 93px;
+}
+.slick-arrow{
+		position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+}
+.slick-prev{
+	left: 0px;
+}
+.slick-next{
+	right: 0;
+}
+
+/* end slick */
+
 @media screen and (max-width: 800px) {
   .btn-shoping-now{
     top: 80%;
