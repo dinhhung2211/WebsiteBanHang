@@ -59,15 +59,16 @@ $('.slider-for').slick({
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav',
-      autoplay: true
-  });
+    autoplay: true
+});
 $('.slider-nav').slick({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     dots: false,
     centerMode: true,
     focusOnSelect: true,
-        infinite: true,
-        centerPadding: '0px'
+    infinite: true,
+    centerPadding: '10px',
+    autoplay: false
 });
