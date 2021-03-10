@@ -140,7 +140,7 @@
 	border-radius: 10px;
 	-webkit-box-shadow: 0 5px 3px rgba(3,3,3,.16);
 }
-img{
+.slider-for img, .slider-nav img{
 	width: 100%;
 	min-height: 100%;
 }
@@ -175,7 +175,8 @@ img{
 
 .head-table{
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  margin: 15px auto 0px auto;
 }
 
 @media screen and (max-width: 800px) {
