@@ -17,6 +17,87 @@
 </head>
 
 <body>
+<?php
+$x = 2;
+$y = 10;
+
+// switch ($x){
+//   case $y;
+//   echo 'diu co';
+//   break;
+//   case 2;
+//   echo 'gut chop';
+//   break;
+//   default: echo 'ok';
+// }
+
+// for ($x = 0; $x <= 10; $x++){
+  
+//   if($x == 5){
+//     continue;
+//   }
+//   echo $x;
+// }
+
+ $arr = array('x','y','c');
+// for ($i=0; $i <= count($arr); $i++) { 
+//   echo $arr[$i];
+// }
+
+// foreach ($arr as $key => $value) {
+//   # code...
+//   echo $key ."=>" . $value ."<br>";
+//   // echo $value;
+// }
+
+$arr_V = [
+  'key1' => 'value1',
+  'key2' => 'value2',
+  'key3' => [0,1]
+];
+foreach ($arr_V['key3'] as $key => $value) {
+  # code...
+  echo $key ."=>" . $value ."<br>";
+  // echo $value;
+}
+
+
+// function addNumbers(int $a, $b) {
+//   return $a + $b;
+// }
+// echo addNumbers(5,"5 days"); 
+
+die;
+
+function myTest($x,$y) {
+  $a=1;
+  $b=NULL;
+
+  
+
+  $c = ($a === $b) ? "dung" : "sai";
+  $a = $b ?? '3';
+  echo $a;
+  die;
+  if ($a === $b){
+    echo 'bang nhau';
+    
+  }
+
+ $arr = ['a','b',1];
+
+ var_dump($arr); die;
+
+  echo $y;
+
+  print $y;
+
+  print_r($y);
+  var_dump($y);
+}
+
+myTest($x,$y);
+?>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="../index.html">N o b s i l v e r</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
